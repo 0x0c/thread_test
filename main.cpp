@@ -18,7 +18,7 @@ int main()
 			s->update();
 		}
 	});
-	// 完全に別スレッドでは知らせる
+	// 完全に別スレッドで走らせる
 	parallel_lines_thread.detach();
 
 	auto t = m2d::thunderclap<std::string>::shared_instance();
