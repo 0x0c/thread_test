@@ -1,7 +1,7 @@
 #include <iostream>
 #include <thread>
 
-// parallel_linesは別スレッドから別スレッドで実行される処理を記述するためのライブラリ
+// parallel_linesはあるスレッドから別スレッドで実行される処理を記述するためのライブラリ
 #include <parallel_lines.h>
 
 // thunderclapは通知センターとなるライブラリ
