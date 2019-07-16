@@ -1,0 +1,6 @@
+[submodule "dependencies/thunderclap"]
+	path = dependencies/thunderclap
+	url = git@github.com:0x0c/thunderclap.git
+[submodule "dependencies/parallel_lines"]
+	path = dependencies/parallel_lines
+	url = git@github.com:0x0c/parallel_lines.git
